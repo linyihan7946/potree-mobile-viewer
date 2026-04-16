@@ -1,0 +1,28 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+
+# 点云数据（太大不上传）
+public/pointclouds/
+
+# 临时下载/构建文件
+potree-develop.zip
+potree-src/
+PotreeConverter.zip
+PotreeConverter/
+
+# Potree 中不需要的大型库
+public/potree/libs/Cesium/
+public/potree/libs/brotli/
+public/potree/libs/copc/
+public/potree/libs/ept/
+public/potree/libs/geopackage/
+public/potree/libs/json5-2.1.3/
+public/potree/libs/MeshLine/
+public/potree/libs/plasio/
+public/potree/libs/shapefile/
+public/potree/libs/sql.js/
+public/potree/libs/stats.js/
+public/potree/libs/zstd-codec/
+public/potree/lazylibs/

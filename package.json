@@ -1,0 +1,16 @@
+{
+  "name": "potree-mobile-viewer",
+  "version": "1.0.0",
+  "description": "移动端点云可视化 - 基于 Potree",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "three": "^0.160.0"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0"
+  }
+}
