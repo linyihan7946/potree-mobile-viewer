@@ -97,22 +97,6 @@ function setupMobileControls() {
     viewer.scene.view.yaw = 0;
     viewer.fitToScreen();
   });
-
-  // 增加点数
-  document.getElementById('btn-points-up').addEventListener('click', () => {
-    const current = viewer.getPointBudget();
-    const newBudget = Math.min(current + 500_000, 5_000_000);
-    viewer.setPointBudget(newBudget);
-    updateInfo(`点预算: ${formatNumber(newBudget)}`);
-  });
-
-  // 减少点数
-  document.getElementById('btn-points-down').addEventListener('click', () => {
-    const current = viewer.getPointBudget();
-    const newBudget = Math.max(current - 500_000, 100_000);
-    viewer.setPointBudget(newBudget);
-    updateInfo(`点预算: ${formatNumber(newBudget)}`);
-  });
 }
 
 // ==================== 工具函数 ====================
